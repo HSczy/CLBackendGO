@@ -1,0 +1,21 @@
+# mysql configuration
+mysql:
+  host: '127.0.0.1'
+  port: '3310'
+  user: '1010'
+  password: '1250'
+  database: 'xxx'
+  max-idle-connes: 3
+  max-open-connes: 200
+
+# jwt configuration
+jwt:
+  secret: "secret123456"
+  expires-time: 604800
+  signature-name : "12345"
+
+# captcha configuration
+captcha:
+  key-long: 6       # 字符长度
+  img-width: 240    # 图片长度
+  img-height: 80    # 图片高度
